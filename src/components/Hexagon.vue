@@ -2,47 +2,37 @@
   <div style="background: #0d5593;height: 900px">
     <ul class="menu">
       <li class="menu-cell" @click="test('11111')">
-        <img class="menu-cell__image" src="../assets/logo.png">
-        <div class="menu-cell__title">111111</div>
+        <!--<img class="menu-cell__image" src="../assets/logo.png">-->
+        <div class="menu-cell__title">11111</div>
       </li>
       <li class="menu-cell" @click="test('22222')">
-        <img class="menu-cell__image" src="../assets/logo.png">
         <div class="menu-cell__title">22222</div>
       </li>
       <li class="menu-cell" @click="test('33333')">
-        <img class="menu-cell__image" src="../assets/logo.png">
         <div class="menu-cell__title">33333</div>
       </li>
       <li class="menu-cell" @click="test('4444')">
-        <img class="menu-cell__image" src="../assets/logo.png">
         <div class="menu-cell__title">4444</div>
       </li>
       <li class="menu-cell" @click="test('555555')">
-        <img class="menu-cell__image" src="../assets/logo.png">
         <div class="menu-cell__title">555555</div>
       </li>
       <li class="menu-cell" @click="test('666666')">
-        <img class="menu-cell__image" src="../assets/logo.png">
         <div class="menu-cell__title">666666</div>
       </li>
       <li class="menu-cell" @click="test('77777')">
-        <img class="menu-cell__image" src="../assets/logo.png">
         <div class="menu-cell__title">77777</div>
       </li>
       <li class="menu-cell" @click="test('88888')">
-        <img class="menu-cell__image" src="../assets/logo.png">
         <div class="menu-cell__title">88888</div>
       </li>
       <li class="menu-cell" @click="test('9999')">
-        <img class="menu-cell__image" src="../assets/logo.png">
         <div class="menu-cell__title">9999</div>
       </li>
       <li class="menu-cell" @click="test('101010')">
-        <img class="menu-cell__image" src="../assets/logo.png">
         <div class="menu-cell__title">101010</div>
       </li>
       <li class="menu-cell" @click="test('11111')">
-        <img class="menu-cell__image" src="../assets/logo.png">
         <div class="menu-cell__title">1111</div>
       </li>
       <li class="menu-cell menu__placeholder"></li>
