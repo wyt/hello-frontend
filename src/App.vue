@@ -1,9 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <CarCarousel/>
-    <Hexagon/>
-    <HelloWorld/>
+    <Honeycomb></Honeycomb>
   </div>
 </template>
 
@@ -11,11 +8,12 @@
     import HelloWorld from './components/HelloWorld'
     import CarCarousel from "./components/CarCarousel";
     import Hexagon from "./components/Hexagon";
+    import Honeycomb from "./components/Honeycomb";
 
     export default {
         name: 'App',
         components: {
-            HelloWorld, CarCarousel, Hexagon
+            HelloWorld, CarCarousel, Hexagon, Honeycomb
         }
     }
 </script>
