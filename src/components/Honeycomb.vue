@@ -15,7 +15,7 @@
           :RADICAL_3="RADICAL_3"
           :spacing="spacing"
           :value="n + ''"
-          color="#e4e4e4"
+          color="#33b66e"
         ></Nest>
       </template>
     </div>
@@ -38,9 +38,6 @@ export default {
   computed: {
     initWidth() {
       return this.size || 80;
-    },
-    initHeight() {
-      return Math.ceil(this.initWidth / this.RADICAL_3);
     }
   }
 };

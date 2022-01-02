@@ -36,7 +36,7 @@ export default {
     // 设置蜂巢背景色
     color: {
       type: String,
-      default: "#e4e4e4"
+      default: "#33b66e"
     },
     // 蜂巢内文本
     value: String
