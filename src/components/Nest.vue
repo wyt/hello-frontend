@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  data() {
+  data: function () {
     return {};
   },
   props: {
@@ -53,38 +53,38 @@ export default {
 </script>
 
 <style scoped>
-.w-comb {
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-}
+  .w-comb {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
 
-.w-comb-content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 100;
-  display: flex;
-  font-size: 13px;
-	color: #fff;
-  align-items: center;
-  justify-content: center;
-  background: transparent;
-}
-.w-comb-sub1,
-.w-comb-sub2 {
-  position: absolute;
-  width: inherit;
-  height: inherit;
-}
+  .w-comb-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    display: flex;
+    font-size: 13px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+  }
+  .w-comb-sub1,
+  .w-comb-sub2 {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+  }
 
-.w-comb-sub1 {
-  transform: rotate(-60deg);
-}
+  .w-comb-sub1 {
+    transform: rotate(-60deg);
+  }
 
-.w-comb-sub2 {
-  transform: rotate(60deg);
-}
+  .w-comb-sub2 {
+    transform: rotate(60deg);
+  }
 </style>

@@ -25,7 +25,7 @@
 <script>
 import Nest from "./Nest.vue";
 export default {
-  data() {
+  data: function () {
     return {
       spacing: 3,
       RADICAL_3: 1.7320508,
@@ -44,11 +44,11 @@ export default {
 </script>
 
 <style scoped>
-.content {
-  padding: 50px;
-}
-.row {
-  font-size: 0;
-  position: relative;
-}
+  .content {
+    padding: 50px;
+  }
+  .row {
+    font-size: 0;
+    position: relative;
+  }
 </style>
