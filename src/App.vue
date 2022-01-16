@@ -1,19 +1,15 @@
 <template>
-  <div id="app">
-    <Honeycomb></Honeycomb>
-  </div>
+  <Layout02></Layout02>
 </template>
 
 <script>
-    import HelloWorld from './components/HelloWorld'
-    import CarCarousel from "./components/CarCarousel";
-    import Hexagon from "./components/Hexagon";
-    import Honeycomb from "./components/Honeycomb";
+    import Layout01 from "./components/eleui/Layout01";
+    import Layout02 from "./components/eleui/Layout02";
 
     export default {
         name: 'App',
         components: {
-            HelloWorld, CarCarousel, Hexagon, Honeycomb
+            Layout01, Layout02
         }
     }
 </script>
