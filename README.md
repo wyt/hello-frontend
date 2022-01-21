@@ -20,4 +20,10 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
+安装vue-router;
+
+npm install vue-router
+
+[安装](https://router.vuejs.org/zh/installation.html)
+
 [element-ui 中让el-container 高度自适应](https://www.cnblogs.com/Bianco/p/13826172.html)
